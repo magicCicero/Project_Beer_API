@@ -1,8 +1,9 @@
 import Header from "../../components/Header/Header";
 import "./ProductDetails.css";
 import { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import ProductDescription from "../../components/ProductDescription/ProductDescription";
+import BackButton from "../../components/Button/BackButton";
 
 const ProductDetails = () => {
   const productId = useParams();
@@ -31,6 +32,7 @@ const ProductDetails = () => {
         attenuation={productItem.attenuation_level}
         contributed={productItem.contributed_by}
       />
+      <BackButton />
       <Header />
     </>
   );

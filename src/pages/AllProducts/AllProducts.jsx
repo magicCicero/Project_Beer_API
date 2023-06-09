@@ -11,11 +11,6 @@ const AllProducts = () => {
       .then((response) => response.json())
       .then((allProductItems) => {
         setAllData(allProductItems);
-        console.log(allProductItems);
-        console.log(allProductItems[0].name);
-        console.log(allProductItems[0].image_url);
-        console.log(allProductItems[0].tagline);
-        console.log(allProductItems[0].contributed_by);
       })
       .catch((error) => {
         console.log("Fehler beim laden", error);

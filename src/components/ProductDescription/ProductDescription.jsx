@@ -1,3 +1,4 @@
+import BackButton from "../Button/BackButton";
 import "./ProductDescription.css";
 
 const ProductDescription = (props) => {
@@ -24,6 +25,7 @@ const ProductDescription = (props) => {
         <p className="product-contributed">
           Contributed by {props.contributed}
         </p>
+        <BackButton />
       </div>
     </>
   );

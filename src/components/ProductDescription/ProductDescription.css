@@ -2,10 +2,6 @@
   height: 100vh;
   width: 100vw;
   padding: 10rem 3rem;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-direction: column;
 }
 .product-img-container {
   width: 100%;
@@ -43,4 +39,5 @@
 .product-contributed {
   color: grey;
   font-size: 1.5rem;
+  margin-bottom: 4rem;
 }

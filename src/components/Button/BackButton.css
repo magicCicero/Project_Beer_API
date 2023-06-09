@@ -1,0 +1,11 @@
+.back-btn-container {
+  width: 20%;
+  height: 10%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.back-btn-container a {
+  width: 100%;
+  height: 10%;
+}
