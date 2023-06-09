@@ -1,0 +1,33 @@
+.product-item {
+  border-bottom: 2px solid grey;
+  margin: 0rem 2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 4rem;
+  padding: 3rem 1rem;
+}
+.img-divider {
+  width: 30%;
+  height: 20vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.product-details-divider h3 {
+  color: gold;
+  font-size: 1.5rem;
+}
+.product-details-divider h2 {
+  font-size: 2.9rem;
+  font-weight: 900;
+}
+.product-details-divider p {
+  font-size: 1.3rem;
+}
+.product-details-divider {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
