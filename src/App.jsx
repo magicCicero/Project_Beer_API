@@ -8,7 +8,9 @@ import RandomDetails from "./pages/RandomDetails/RandomDetails";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter
+        basename={import.meta.env.DEV ? "/" : "/react-vite-gh-pages/"}
+      >
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/allproducts" element={<AllProducts />} />
