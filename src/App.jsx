@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <BrowserRouter
-        basename={import.meta.env.DEV ? "/" : "/react-vite-gh-pages/"}
+        basename={import.meta.env.DEV ? "/" : "/Project_Beer_API/"}
       >
         <Routes>
           <Route path="/" element={<Home />} />
