@@ -14,7 +14,7 @@ const Home = () => {
   console.log(siteLoaded);
 
   useEffect(() => {
-    setTimeout(() => setSiteLoaded("-off"), 4500);
+    setTimeout(() => setSiteLoaded("-off"), 4580);
     console.log(siteLoaded);
   }, []);
 
